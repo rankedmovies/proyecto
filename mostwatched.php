@@ -38,10 +38,9 @@
 					<li><a href="../index.php">Home</a></li>
 					<li><a>Generos</a>
 						<ul>
-							<li><a href="genre.html">Action</a></li>
-							<li><a href="genre.html">Comedy</a></li>
-							<li><a href="genre.html">Drama</a></li>
-							<li><a href="genre.html">Romance</a></li>
+						<?php 
+								require 'genre_list2.php';
+							?>
 						</ul>
 					</li>
 					<li><a>Años</a>
@@ -58,6 +57,8 @@
 					
 					<li><a href="../popular/1">Mas vistas</a></li>
 
+					<li><a href="../cerrar.php">Cerrar sesion</a></li>
+
 					<li class="mobsearch">
 						<form class="mobform" action='search.php'>
 							<input type="text" name="query" class="mobsearchfield" placeholder="Search...">
@@ -66,7 +67,7 @@
 					</li>
 				</ul>
 			</nav>
-			<form class="search" action="search.php">
+			<form class="search" action="../search.php">
 				<input type="text" name="query" class="searchfield" placeholder="Search...">
 				<input type="submit" value="" class="searchsubmit">
 			</form>
