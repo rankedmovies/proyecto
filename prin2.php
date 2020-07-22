@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link p-2 font-weight-bold text-white" href="#">Home </a>
+            <a class="nav-link p-2 font-weight-bold text-white" href="prin2.php">RankedMovies </a>
           </li>
 
           
