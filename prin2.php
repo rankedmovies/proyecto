@@ -66,7 +66,7 @@
                       <div class="py-3 text-center"> <i class="fas fa-rocket card-img-top fa-4x text-primary" aria-hidden="true"></i></div>
                       <div class="card-body">
                         <h4 class="card-title">Multiplataforma</h4>
-                        <p class="card-text">Nuestra aplicacion esta basada tipo web, le cual le permite acceder desde cualquier plataforma</p>
+                        <p class="card-text">Nuestra aplicacion web permite acceder desde cualquier plataforma</p>
                        </div>
                       </div>
                     </div>
@@ -77,7 +77,7 @@
                        <div class="py-3 text-center"><i class="fas fa-feather card-img-top fa-4x text-primary" aria-hidden="true"></i></div>
                       <div class="card-body">
                         <h4 class="card-title">Eficaz</h4>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil similique maiores consequuntur explicabo aspernatur voluptates. </p>
+                        <p class="card-text">Nuestra aplicacion web es facil y eficaz a la hora de utilizarla. </p>
                        </div>
                       </div>
                     </div>
@@ -88,8 +88,8 @@
                       <div class="py-3 text-center"><i class="fa fa-tablet card-img-top fa-4x text-primary" aria-hidden="true"></i></div>
                      
                       <div class="card-body">
-                        <h4 class="card-title">Responsive </h4>
-                        <p class="card-text">Our templates works in all devices (desktop,tablets and phones). </p>
+                        <h4 class="card-title">Variedad </h4>
+                        <p class="card-text"> Nuestra aplicacion web contiene una gran variedad de peliculas </p>
                         </div>
                       </div>
                     </div>
@@ -102,8 +102,8 @@
                       <div class="py-3 text-center"><i class="fas fa-charging-station card-img-top fa-4x text-primary" aria-hidden="true"></i>
                      </div>
                       <div class="card-body">
-                        <h4 class="card-title">Easy customisation</h4>
-                        <p class="card-text">Our templates are clean,light weight and technically refined. </p>
+                        <h4 class="card-title">Registro seguro</h4>
+                        <p class="card-text">Nuestro formulario de registro es seguro y facil de llenar.</p>
                         </div>
                       </div>
 

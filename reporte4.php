@@ -15,7 +15,7 @@ class pdf extends FPDF
     {
         $this->SetFont('TIMES','B','10');
         //$this -> setX(160);
-        $this -> Image('img/logoo.png',95,5,25,25);
+        $this -> Image('img/banner_valoradas.png',5,5,200,50);
     }
 
     public function footer()
@@ -37,7 +37,7 @@ $fpdf = new pdf();
 $fpdf->AddPage();
 $fpdf->SetFont('Arial','B',16);
 $fpdf->SetY(25);
-$fpdf->Cell(0,25,"Reporte Peliculas mas valoradas ",0,0,"C");
+//$fpdf->Cell(0,25,"Reporte Peliculas mas valoradas ",0,0,"C");
 $fpdf->Ln(30);
 
 //$fpdf->SetTextColor(45,47,250);
@@ -58,7 +58,7 @@ $fpdf->SetDrawColor(0,4,253);
 $fpdf->SetLineWidth(1);
 
 //Asiganar una linea
-$fpdf->Line(15,65,190,65);
+//$fpdf->Line(15,65,190,65);
 $fpdf->Ln(15);
 $fpdf->SetFont('Arial','',12);
 $fpdf->SetLineWidth(0);

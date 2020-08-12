@@ -48,7 +48,7 @@
                       <div id="imagen">
                         <img src="img/logoarriba.png" width="25%" height="25%">
                       </div>
-                    <small>Hola, Admi</small>
+                    <small>Hola, Admin</small>
                   </div>
                   
 

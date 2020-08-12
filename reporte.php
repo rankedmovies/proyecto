@@ -12,7 +12,7 @@ class pdf extends FPDF
     {
         $this->SetFont('TIMES','B','10');
         //$this -> setX(160);
-        $this -> Image('img/logoo.png',95,5,25,25);
+        $this -> Image('img/banner.png',5,5,200,50);
     }
 
     public function footer()
@@ -34,16 +34,16 @@ $fpdf = new pdf();
 $fpdf->AddPage();
 $fpdf->SetFont('Arial','B',16);
 $fpdf->SetY(25);
-$fpdf->Cell(0,25,"Reporte de Usuarios Registrados",0,0,"C");
+//$fpdf->Cell(0,25,"Reporte de Usuarios Registrados",0,0,"C");
 
 //$fpdf->SetTextColor(45,47,250);
 $fpdf->SetFont('Arial','B',14);
 //$fpdf->Ln();
-$fpdf->Ln();
-$fpdf->Cell(30,5,"Materia:");
-$fpdf->SetFont('Arial','B',14);$fpdf->Cell(20,5,"Diseno de Sistema");$fpdf->SetFont('Courier','B',14);$fpdf->Ln();
-$fpdf->SetFont('Arial','B',14);$fpdf->Cell(30,5,"Profesor:",0,0,"");
-$fpdf->SetFont('Arial','B',14);$fpdf->Cell(20,5,"Harol Tejada");$fpdf->SetFont('Courier','B',14);$fpdf->Ln();
+$fpdf->Ln(25);
+//$fpdf->Cell(30,5,"Materia:");
+//$fpdf->SetFont('Arial','B',14);$fpdf->Cell(20,5,"Diseno de Sistema");$fpdf->SetFont('Courier','B',14);$fpdf->Ln();
+//$fpdf->SetFont('Arial','B',14);$fpdf->Cell(30,5,"Profesor:",0,0,"");
+//$fpdf->SetFont('Arial','B',14);$fpdf->Cell(20,5,"Harol Tejada");$fpdf->SetFont('Courier','B',14);$fpdf->Ln();
 //$fpdf->SetFont('Arial','B',14);$fpdf->Cell(30,5,"Curso:",0,0,"");
 //$fpdf->SetFont('Arial','B',14);$fpdf->Cell(20,5,"A-209");$fpdf->SetFont('Courier','B',14);$fpdf->Ln(10);
 //$fpdf->SetFont('Arial','B',12);
@@ -60,7 +60,7 @@ $fpdf->SetDrawColor(0,4,253);
 
 
 //Asignar borde  a la linea
-$fpdf->SetLineWidth(1);
+$fpdf->SetLineWidth(0);
 
 //Asiganar una linea
 $fpdf->Line(15,65,190,65);
@@ -95,10 +95,11 @@ $fpdf->Ln();
 $fpdf->setFont('Arial', '', 10);
 
 while($fila = $resultado->fetch_assoc()) {
+    $fpdf->Ln(10);
 	$fpdf->Cell(20, 6, utf8_decode($fila['id']), 1, 0, 'C');
 	$fpdf->Cell(110, 6, utf8_decode($fila['correo']), 1, 0, 'C');
     $fpdf->Cell(60, 6, utf8_decode($fila['usuario']), 1, 0, 'C');
-    $fpdf->Ln();
+    
 	
 }
 
