@@ -12,7 +12,7 @@ class pdf extends FPDF
     {
         $this->SetFont('TIMES','B','10');
         //$this -> setX(160);
-        //$this -> Image('./img/logo_ucateci.png');
+        $this -> Image('img/logoo.png',95,5,25,25);
     }
 
     public function footer()
@@ -20,7 +20,7 @@ class pdf extends FPDF
         $this ->SetFont('TIMES','B','10');
         $this ->setY(-15);
         $this ->Write(5,'La Vega, Republica Dominicana');
-        //$this -> Image('fpdf/img/bandera.png',185,275,20,20,'png',"");
+        //$this -> Image('img/logo.png',185,275,20,20,'png',"");
         $this->Setx(-30);
         $this->AliasNbPages('tpaginas');
         $this->Write(5,$this->PageNo().'/tpaginas');
@@ -72,7 +72,7 @@ $fpdf->SetDrawColor(256,256,256);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Datos de conexión
-$mysqli = new mysqli("localhost", "root", "", "pacientes");
+$mysqli = new mysqli("localhost", "root", "", "login");
 
 if(mysqli_connect_errno()) {
 	echo 'Conexion fallida: ', mysqli_connect_errno();
@@ -80,7 +80,7 @@ if(mysqli_connect_errno()) {
 }
 
 // Consulta
-$query = "SELECT * FROM lista_pacientes";
+$query = "SELECT * FROM `login`";
 $resultado = $mysqli->query($query);
 
 
@@ -88,28 +88,19 @@ $resultado = $mysqli->query($query);
 $fpdf->setFillColor(232, 232, 232);
 $fpdf->setFont('Arial', 'B', 12);
 $fpdf->Cell(20, 6, 'ID', 1, 0, 'C', 1);
-$fpdf->Cell(80, 6, 'NOMBRE', 1, 0, 'C', 1);
-$fpdf->Cell(40, 6, 'TELEFONO', 1, 0, 'C', 1);
-$fpdf->Cell(50, 6, 'ENFERMEDAD', 1, 1, 'C', 1);
+$fpdf->Cell(110, 6, 'Correo', 1, 0, 'C', 1);
+$fpdf->Cell(60, 6, 'Usuario', 1, 0, 'C', 1);
 
+$fpdf->Ln();
 $fpdf->setFont('Arial', '', 10);
 
 while($fila = $resultado->fetch_assoc()) {
-	$fpdf->Cell(20, 6, $fila['codigo'], 1, 0, 'C');
-	$fpdf->Cell(80, 6, utf8_decode($fila['nombre']), 1, 0, 'C');
-	$fpdf->Cell(40, 6, utf8_decode($fila['telefono']), 1, 0, 'C');
-	$fpdf->Cell(50, 6, utf8_decode($fila['enfermedad']), 1, 1, 'C');
+	$fpdf->Cell(20, 6, utf8_decode($fila['id']), 1, 0, 'C');
+	$fpdf->Cell(110, 6, utf8_decode($fila['correo']), 1, 0, 'C');
+    $fpdf->Cell(60, 6, utf8_decode($fila['usuario']), 1, 0, 'C');
+    $fpdf->Ln();
+	
 }
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
 
 
 $fpdf->Output();
