@@ -162,7 +162,7 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div class="card-body">
-                        Los lenguajes utilizados son PHP, Javascript, tambien usamos el framework de CSS de bootstrap para darle un mejor diseño
+                        Los lenguajes utilizados son PHP, Javascript, tambien usamos la biblioteca de bootstrap para darle un mejor diseño
                       </div>
                     </div>
                   </div>
