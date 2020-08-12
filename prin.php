@@ -113,7 +113,7 @@
 
 		<main class="content">
 			<section class="panel">
-				<h2> Proximos extrenos</h2>
+				<h2> Próximos extrenos</h2>
 				<div class="recentslider">
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
@@ -133,7 +133,7 @@
 			</section>
 
 			<section class="panel">
-				<h2>Las mas populares</h2>
+				<h2>Las más populares</h2>
 				<div class="mostslider">
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
@@ -154,7 +154,7 @@
 			</section>
 
 			<section class="panel">
-				<h2>Peliculas mas valoradas</h2>
+				<h2>Películas más valoradas</h2>
 				<div class="topslider">
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
@@ -186,9 +186,9 @@
 			</div>
 			<div class="tags">
 				<ul>
-					<li>Mejores Peliculas</li>
-					<li>Peliculas Gratis</li>
-					<li>Peliculas Sin Anuncios</li>
+					<li>Mejores Películas</li>
+					<li>Películas Gratis</li>
+					<li>Películas Sin Anuncios</li>
 
 				</ul>
 			</div>

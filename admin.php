@@ -23,7 +23,7 @@
               <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-6">
                   <h1 class="text-white">Bienvenido Administrador</h1>
-                  <p class="text-lead text-light">Aqui podras descargar todos los reportes de tu la aplicacion</p>
+                  <p class="text-lead text-light">Aquí podrás descargar todos los reportes de tu la aplicación</p>
                 </div>
               </div>
             </div>
@@ -55,16 +55,16 @@
                   <a href="reporte.php"  target="_blank" class="btn btn-primary btn-lg btn-block">Descargar reportes usuarios </a>
                     <hr>
 
-                  <a href="reporte2.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Peliculas mas Populares</a>
+                  <a href="reporte2.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Películas más Populares</a>
                     <hr>
 
-                    <a href="reporte3.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Peliculas Proximo Estrenos</a>
+                    <a href="reporte3.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Películas Próximo Estrenos</a>
                     <hr>
 
-                    <a href="reporte4.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Peliculas mas Valoradas</a>
+                    <a href="reporte4.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Películas más Valoradas</a>
                     <hr>
                   
-                  <a href="prin.php"  class="btn btn-danger btn-lg btn-block">Ir a la Pagina Principal </a>
+                  <a href="prin.php"  class="btn btn-danger btn-lg btn-block">Ir a la Página Principal </a>
                     <hr>
                   
                   

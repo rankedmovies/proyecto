@@ -47,9 +47,9 @@
   <div class="jumbotron jumbotron-odi-hero bg-primary">
   <div class="jumbotron-overlay ">
       <div class="container jumbotron-padding  text-center">
-      <h1 class="display-4">Disfruta de todas las peliculas desde una misma pagina</h1>
+      <h1 class="display-4">Disfruta de todas las películas desde una misma página</h1>
          <p>
-            <a href="register.php" class="btn btn-lg btn-success btn-circle my-4 mr-3">Registrase Aqui</a>
+            <a href="register.php" class="btn btn-lg btn-success btn-circle my-4 mr-3">Regístrate aquí</a>
          </p>
       </div>
     </div>
@@ -57,7 +57,7 @@
 
 
          <div class="container mt-5" id="about">
-                   <h1 class="text-center py-4">Disfrutas sin limites</h1>
+                   <h1 class="text-center py-4">Disfruta sin límites</h1>
                   
                   <div class="row text-center mt-5">
                    <div class="col-md-3">
@@ -113,7 +113,7 @@
                   </div>
                 </div>
               <div class="container mt-4  text-center">
-                 <p class="pt-5 pb-2 h4 text-monospace">Con la tecnologia Gracias a:</p>
+                 <p class="pt-5 pb-2 h4 text-monospace">Con la tecnología Gracias a:</p>
                  <br><br>
                 <div class="row container">
                  <div class="col-md-4">
@@ -162,7 +162,7 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div class="card-body">
-                        Hasta ahora utilizaremos Javascript, html y css con algunas APIS encontradas en la internet.
+                        Los lenguajes utilizados son PHP, Javascript, tambien usamos el framework de CSS de bootstrap para darle un mejor diseño
                       </div>
                     </div>
                   </div>
