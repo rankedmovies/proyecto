@@ -88,7 +88,7 @@
 							<li><a href="../year/2015/1">2015</a></li>
 							<li><a href="../year/2014/1">2014</a></li>
 						</ul>
-						<li><a href="../popular/1">Mas vistas</a></li>
+						<li><a href="../popular/1">Mas Populares</a></li>
 
 					<li><a href="../cerrar.php">Cerrar sesion</a></li>
 				

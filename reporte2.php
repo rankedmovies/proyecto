@@ -39,7 +39,7 @@ $fpdf = new pdf();
 $fpdf->AddPage();
 $fpdf->SetFont('Arial','B',16);
 $fpdf->SetY(25);
-$fpdf->Cell(0,25,"Peliculas Mas Vistas",0,0,"C");
+$fpdf->Cell(0,25,"Peliculas Mas Populares",0,0,"C");
 $fpdf->Ln(30);
 
 //$fpdf->SetTextColor(45,47,250);

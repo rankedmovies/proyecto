@@ -1,10 +1,10 @@
-<pre>
+<!-- <pre>     -->
 <?php
 
 	$movies = file_get_contents('https://api.themoviedb.org/3/movie/popular?api_key=5b812339ff5a7fd950dc41d20c6754c8&language=es-ES&page='.$_GET['page']);
 	$movies = json_decode($movies,true)["results"];
-	print_r($movies);
-	exit;
+	//print_r($movies);
+	//exit;
 
 ?>
 
@@ -57,7 +57,7 @@
 						</ul>
 					</li>
 					
-					<li><a href="../popular/1">Mas vistas</a></li>
+					<li><a href="../popular/1">Mas Populares</a></li>
 
 					<li><a href="../cerrar.php">Cerrar sesion</a></li>
 
