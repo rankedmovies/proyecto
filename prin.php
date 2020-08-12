@@ -113,7 +113,7 @@
 
 		<main class="content">
 			<section class="panel">
-				<h2> Próximos extrenos</h2>
+				<h2> Nuevos extrenos</h2>
 				<div class="recentslider">
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
