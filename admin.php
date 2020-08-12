@@ -58,10 +58,10 @@
                   <a href="reporte2.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Peliculas mas Populares</a>
                     <hr>
 
-                    <a href="reporte2.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Peliculas Proximo Estrenos</a>
+                    <a href="reporte3.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Peliculas Proximo Estrenos</a>
                     <hr>
 
-                    <a href="reporte2.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Peliculas mas Valoradas</a>
+                    <a href="reporte4.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Peliculas mas Valoradas</a>
                     <hr>
                   
                   <a href="prin.php"  class="btn btn-danger btn-lg btn-block">Ir a la Pagina Principal </a>
